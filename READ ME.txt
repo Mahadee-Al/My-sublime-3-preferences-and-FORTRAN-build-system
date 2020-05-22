@@ -1,0 +1,43 @@
+**sublime preferred color scheme    : predawn
+**sublime preferred theme           : material theme
+##sublime packages for python:
+	1.anaconda
+	2.bracket highlighter
+	3.sidebar enhancement
+	4. Sublime linter
+## Other important packages:
+	5. fortran
+	6. minimal fortran
+	7.TERMINUS(to run command prompt from the command palletet or in a new tab)
+	8.latexTools(for latex compilation and viewing. It has a default pdf cakked sumatra PDF)
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
+after installing sublime text 3
+
+go to command pallete using ctrl+shift+p
+
+type install package installer
+
+then go to package installer to install the afore said package and theme
+
+then go to settings and paste the "sublime text 3 " file in user settings
+and make show definitions true.
+
+then go to packaage settings-> anaconda->package user settingd and paste the "anaconda preference file".
+------------------------------------------------------------------------------------------------------------------------
+************************************************FORTRAN BUILD SYSTEM****************************************************
+There are 2 Fortran build system included with this in this file. One is with executabe and one is without. The build 
+system without executible just forms an exe file wihich you have to go to file explorer and run manually and the 
+other when executed generates the output. Note that the build system with executable CAN'T TAKE ANY INPUTS LIKE 
+COMMAND PROMPT. So, if you want  to only see the output the out that's the build system you should go for. Otherwise
+go for the other one.
+************************************************************************************************************************
+the fortran build system is for compiling f90 file:
+## The steps to compile f90 files are as follows:
+	1. Go to Tools->Build System-> Add new build system
+	2. paste the lines from the 'fortran build system' in the new file
+	3. Save the file named fortran without changing extension
+	4. While building the f90 file select the Fortran build system
+	5. then go to the directory of f90 file. You will get an exe file which when executed will give you your desired program

@@ -1,0 +1,8 @@
+{
+"cmd": ["gfortran", "$file_name","&&", "$file_base_name"],
+"file_regex": "^(...?):([0-9]):?([0-9]*)",
+"selector": "source.modern-fortran, source.fixedform-fortran",
+"syntax": "GFortranBuild.sublime-syntax",
+"shell": true
+
+}
